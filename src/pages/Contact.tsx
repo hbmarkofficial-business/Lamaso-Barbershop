@@ -39,10 +39,7 @@ const Contact = () => {
               "latitude": "48.2167",
               "longitude": "16.3958"
             },
-            "areaServed": {
-              "@type": "AdministrativeArea",
-              "name": "Wien"
-            },
+            "url": "https://example-barbershop.at",
             "openingHoursSpecification": [
               {
                 "@type": "OpeningHoursSpecification",
@@ -58,7 +55,7 @@ const Contact = () => {
               }
             ],
             "sameAs": [
-              "https://www.google.com/maps?cid=1234567890",
+              "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1318129.3580058897!2d9.079048735369632!3d49.81480464851278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ebd0059a18c45%3A0xec5c9cef228098dd!2sLamaso%20Barbershop!5e0!3m2!1sde!2sde!4v1772029444707!5m2!1sde!2sde",
               "https://www.instagram.com/beispielbarbershop",
               "https://www.facebook.com/beispielbarbershop"
             ]
@@ -138,10 +135,10 @@ const Contact = () => {
                       Oder rufen Sie uns direkt an:
                     </p>
                     <a 
-                      href="tel:015118311067" 
+                      href="tel:082144947909" 
                       className="block text-center text-primary font-semibold mt-2 hover:underline"
                     >
-                      015118311067
+                      082144947909
                     </a>
                   </div>
 
@@ -192,8 +189,8 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Adresse</h3>
                         <p className="text-muted-foreground">
-                          Färberstraße 54<br />
-                          90402 Nürnberg
+                          Viktoriastraße 2<br />
+                          86150 Augsburg
                         </p>
                       </div>
                     </div>
@@ -205,10 +202,10 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Telefon</h3>
                         <a 
-                          href="tel:015118311067" 
+                          href="tel:082144947909" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
-                          015118311067
+                          082144947909
                         </a>
                       </div>
                     </div>
@@ -220,7 +217,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">E-Mail</h3>
                         <a 
-                          href="mailto:info@gentlemanscut.de" 
+                          href="mailto:info@mustershop.de" 
                           className="text-muted-foreground hover:text-primary transition-colors"
                         >
                           info@mustershop.de
@@ -235,8 +232,7 @@ const Contact = () => {
                       <div>
                         <h3 className="font-semibold text-foreground mb-1">Öffnungszeiten</h3>
                         <ul className="text-muted-foreground space-y-1 text-sm">
-                          <li>Mo - Fr: 10:00 - 20:00</li>
-                          <li>Samstag: 10:00 - 19:00</li>
+                          <li>Mo - Sa: 8:30 - 20:00</li>
                           <li>Sonntag: Geschlossen</li>
                         </ul>
                       </div>
@@ -245,7 +241,7 @@ const Contact = () => {
 
                   <div className="aspect-video rounded-sm overflow-hidden border border-border mt-8">
                     <iframe
-                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2593.935844488252!2d11.069183276892435!3d49.44792955903806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479f57a835434d4d%3A0xfba938ebd99d6f67!2sTop%20Salon%20-%20N%C3%BCrnberg!5e0!3m2!1sde!2sde!4v1769779552025!5m2!1sde!2sde"
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1318129.3580058897!2d9.079048735369632!3d49.81480464851278!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x479ebd0059a18c45%3A0xec5c9cef228098dd!2sLamaso%20Barbershop!5e0!3m2!1sde!2sde!4v1772029444707!5m2!1sde!2sde"
                       width="100%"
                       height="100%"
                       style={{ border: 0, filter: 'grayscale(100%) contrast(1.2)' }}
